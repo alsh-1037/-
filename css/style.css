@@ -128,7 +128,6 @@ img{
 }
 
 @media (max-width: 560px){
-      }
     .hi__body{
         padding: 0;
     }
@@ -146,7 +145,7 @@ img{
          justify-content: space-around;
          align-items: center;
         }
-    .hi__title{
+        .hi__title{
         text-align: center;
     }
         
