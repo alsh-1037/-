@@ -112,5 +112,32 @@ img{
         justify-content: space-around;
         align-items: center;
     }
-    
+
+    .hi__body{
+        margin-top: 20px;
+    }
+    .hi__list li{
+        
+    }
+}
+
+@media (max-width: 560px){
+    .hi__body{
+        padding: 0;
+    }
+    .hi__title {
+        font-size: 22px;}
+    .hi__list li{
+        font-size: 14px;
+        padding-left: 25px;
+        margin-bottom: 10px;
+        line-height: 15px;
+        }
+     .hi__row {
+         display: flex;
+        flex-direction: column-reverse;
+         justify-content: space-around;
+         align-items: center;
+        }
+        
 }
