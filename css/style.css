@@ -105,11 +105,12 @@ img{
         }
         
 }
-@media (max-width: 950px){
+@media (max-width: 997px){
     .hi__row {
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
+        align-items: center;
     }
     
 }
