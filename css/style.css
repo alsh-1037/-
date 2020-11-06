@@ -95,6 +95,9 @@ img{
 }
 
 @media (max-width: 1060px){
+    .hi__title{
+        align-items: center;
+    }
     .hi__title {
         font-size: 42px;}
     .hi__list li{
@@ -112,6 +115,9 @@ img{
         justify-content: space-around;
         align-items: center;
     }
+    .hi__title{
+        align-items: center;
+    }
 
     .hi__body{
         margin-top: 20px;
@@ -122,6 +128,7 @@ img{
 }
 
 @media (max-width: 560px){
+      }
     .hi__body{
         padding: 0;
     }
@@ -135,9 +142,12 @@ img{
         }
      .hi__row {
          display: flex;
-        flex-direction: column-reverse;
+         flex-direction: column-reverse;
          justify-content: space-around;
          align-items: center;
         }
+    .hi__title{
+        text-align: center;
+    }
         
 }
