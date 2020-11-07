@@ -45,6 +45,7 @@ body{
     padding: 50px 0px;
     width: 100%;
 }
+
 .hi__row {
     display: flex;
     justify-content: space-between;
@@ -58,12 +59,13 @@ body{
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 38px;
-    text-shadow:0 0 120px rgba(25, 0, 255, 0.753);
+    text-shadow:0 0 120px rgba(207, 48, 109, 0.753);
     -webkit-animation: pulsate 5s linear infinite;
     animation: pulsate 5s linear infinite;
 }
 .hi__list {
-    color: #F7F7F7;
+    color: #EAEDEB;
+    font-weight: 700;
     
 }
 
@@ -111,7 +113,7 @@ img{
 
 .card-body{
     background-color: #dbe8f5;
-    border-radius: 5%;
+    border-radius: 2.5%;
 }
 
 .card{
