@@ -38,22 +38,37 @@ body{
     flex: 1 1 auto;
 }
 .hi {
-    background-color: #445162;
+    background-image: url(../img/hibg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 50px 0px;
+    width: 100%;
 }
 .hi__row {
     display: flex;
     justify-content: space-between;
 }
 .hi__body {
-    color: #fff;
+    min-width: 320px;
     padding: 0px 30px 0px 0px;
 }
 .hi__title {
-    font-size: 68px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
     margin-bottom: 38px;
+    text-shadow:0 0 120px rgba(25, 0, 255, 0.753);
+    -webkit-animation: pulsate 5s linear infinite;
+    animation: pulsate 5s linear infinite;
 }
 .hi__list {
+    color: #F7F7F7;
+    
+}
+
+.hi__image{
+    max-width: 600px;
 }
 
 .hi__list li {
@@ -93,6 +108,22 @@ img{
 .card__container_mrg{
     padding: 30px;
 }
+
+.card-body{
+    background-color: #dbe8f5;
+    border-radius: 5%;
+}
+
+.card{
+    border: none;
+}
+
+@-webkit-keyframes pulsate {
+    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+  }
+@keyframes pulsate {
+    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+  }
 
 @media (max-width: 1060px){
     .hi__title{
